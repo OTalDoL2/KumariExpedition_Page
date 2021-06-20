@@ -1,0 +1,71 @@
+.navegation{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.main{
+    background-color: rgb(116, 65, 65);
+}
+#inicio{
+    background-image: url(../anexos/fundo_tela01.png);
+    /* background-image: url(../anexos/thumbnail1.png9D8057FB-B09D-46F9-A1F0-02701733331EDefault.jpg) ; */
+    background-color: black;
+    height: 718px;
+    margin-top: 56px;
+}
+#inicio h1{
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 240px;
+}
+
+#about{
+    background-image: url(../anexos/fundo_tela01.png);
+    /* background-image: url(../anexos/thumbnail1.png9D8057FB-B09D-46F9-A1F0-02701733331EDefault.jpg) ; */
+    background-color: black;
+    height: 718px;
+    padding-top: 100px;
+}
+
+.storyGm{
+    color: white;
+    text-align: justify;
+    width: 270px;
+}
+
+.inicialFt{
+    align-items: center;
+    padding-top: 93px;
+    border-radius: 30%;
+}
+
+
+#dev{
+    background-image: url(../anexos/fundo_tela01.png);
+    /* background-image: url(../anexos/thumbnail1.png9D8057FB-B09D-46F9-A1F0-02701733331EDefault.jpg) ; */
+    background-color: black;
+    height: 718px;
+    padding-top: 100px;
+}
+
+.resumoGm{
+    color: white;
+    text-align: justify;
+    font-size: 30px;
+    margin-top: 130px;
+    /* width: 270px; */
+}
+
+.item
+{ height: 550px; }
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+}
+
+footer{
+    text-align: right;
+}
