@@ -1,4 +1,4 @@
-<h1 align="center"> A Expedição de Kumari </h1>
+<img src="/anexos/logo_jogo.png">
 
 <h2> Resumo </h2>
 <h3>
