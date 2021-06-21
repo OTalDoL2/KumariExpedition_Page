@@ -36,6 +36,7 @@
     color: white;
     text-align: justify;
     width: 270px;
+    padding-top: 180px;
 }
 
 .inicialFt{
@@ -72,6 +73,21 @@
 .function{
     color: #6633ac;
 }
-footer{
+
+.areaContato{
     text-align: right;
+
+    padding-top: 60px;
+}
+
+.contato{
+    margin-top: -15px;
+}
+
+.end-line{
+    text-align: right;
+}
+footer{
+    color: beige;
+    background-color:cornflowerblue;
 }
