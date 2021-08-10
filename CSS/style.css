@@ -88,6 +88,46 @@
     text-align: right;
 }
 footer{
+    width: 100%;
     color: beige;
-    background-color:cornflowerblue;
+    background-color:rgb(111, 95, 182);
+    display: table;
 }
+
+.patrocinio, .contato, .line{
+    float: left;
+}
+.contato{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.contato > h6{
+    text-align: center;
+}
+.patrocinio{
+    padding: 10px 30px;
+    width: 750px;
+    margin-left: 20px;
+}
+.line{
+    background-color: whitesmoke;
+    width: 5px;
+    height: 110px;
+    margin-top: 30px;
+}
+
+/*ScrollBarConf*/
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background: blueviolet;
+    border-radius: 0px;
+}
+::-webkit-scrollbar-thumb{
+    background: darkslateblue;
+    border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: purple; 
+  }
