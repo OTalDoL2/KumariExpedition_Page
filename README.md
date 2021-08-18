@@ -38,7 +38,3 @@
   Gênero: Puzzle.
 </h4>
 
-<h4>
-  Cliente: Professora Amanda.
-</h4>
-
