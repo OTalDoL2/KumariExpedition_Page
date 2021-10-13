@@ -59,35 +59,73 @@
     text-align: justify;
     font-size: 30px;
     margin-top: 130px;
+    width: 80%;
     /* width: 270px; */
 }
 
 .desenvolvedores{
-    width: 80%;
+    width: 110%;
+    border-radius: 25%;
+    border-color:rebeccapurple;
+    border-style:outset;
+    border-width: 8px;
 }
 
 .names{
     color: #6c32c6;
-    font-size: 14px;
+    font-size: 12px;
 }
 .function{
     color: #6633ac;
 }
 
-.areaContato{
-    text-align: right;
 
-    padding-top: 60px;
-}
-
-.contato{
-    margin-top: -15px;
-}
-
-.end-line{
-    text-align: right;
-}
+/*Footer*/
 footer{
+    width: 100%;
     color: beige;
-    background-color:cornflowerblue;
+    background-color:rgb(111, 95, 182);
+    display: table;
 }
+
+.patrocinio, .contato, .line{
+    float: left;
+}
+.contato{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.contato > h6{
+    text-align: center;
+}
+.patrocinio{
+    padding: 10px 30px;
+    width: 750px;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+.line{
+    background-color: whitesmoke;
+    width: 5px;
+    height: 110px;
+    margin-top: 20px;
+}
+a>.nav-link, a>.nav-linkActive{
+    margin-left: 20px;
+}
+
+/*ScrollBarConf*/
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background: blueviolet;
+    border-radius: 0px;
+}
+::-webkit-scrollbar-thumb{
+    background: darkslateblue;
+    border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: purple; 
+  }
